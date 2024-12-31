@@ -1,0 +1,12 @@
+path: ./dataset  # 相对于项目根目录的路径
+train: train/images
+val: val/images
+
+# 姿态检测设置
+kpt_shape: [17, 3]  # COCO格式的17个关键点
+names: [
+    'squat',           # 下蹲
+    'arm_raise',       # 举臂
+    'leg_raise',       # 抬腿
+    # 添加更多动作...
+] 
